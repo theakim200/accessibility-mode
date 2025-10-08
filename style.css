@@ -60,11 +60,21 @@ body {
 .container {
     flex: 1;
     min-height: 0;
-    overflow: hidden;
+    overflow: scroll;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-content: center;
     align-items: center;
     padding: 0.5rem 1rem;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+.content img {
+    max-width: 300px;
+    opacity: 5%;
 }
