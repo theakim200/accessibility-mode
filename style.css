@@ -75,6 +75,6 @@ body {
     width: 100%;
 }
 .content img {
-    max-width: 300px;
-    opacity: 5%;
+    width: auto;
+    opacity: 0;
 }
